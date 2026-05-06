@@ -16,7 +16,7 @@ Don't skip any of the following steps:
 
 1. Search for <AMOUNT> relevant/popular questions from top institutions for each of the topics through the internet. The questions must involve complex analytical thinking, instead of simple questions. They must involve actual thinking out of the box.
 
-2. Write all of them down in a downloadable document correctly categorized.
+2. Write all of them down in a downloadable document correctly categorized. The document format must be pdf.
 
 3. Write 2 additional questions level Brilliant.
 
