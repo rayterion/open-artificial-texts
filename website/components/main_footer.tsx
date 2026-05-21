@@ -3,19 +3,7 @@ import Link from "next/link";
 const footerSections = [
   {
     title: "Library",
-    links: [
-      { label: "Prompts", href: "#prompts" },
-      { label: "Examples", href: "#examples" },
-      { label: "Results", href: "#results" },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      { label: "Contribute", href: "#contribute" },
-      { label: "Guidelines", href: "#guidelines" },
-      { label: "Contact", href: "mailto:hello@openartificialtexts.dev" },
-    ],
+    links: [{ label: "Prompts", href: "/prompts" }],
   },
 ];
 
@@ -59,7 +47,7 @@ export default function MainFooter() {
 
       <div className="border-t border-zinc-200 px-6 py-4 text-center text-xs text-zinc-500 dark:border-zinc-800 dark:text-zinc-500">
         Copyright {new Date().getFullYear()} Open Artificial Texts. Built for
-        shared learning.
+        the community.
       </div>
     </footer>
   );

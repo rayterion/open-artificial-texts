@@ -2,7 +2,12 @@ import Link from "next/link";
 
 const navigationLinks = [
   { label: "Prompts", href: "#prompts" },
-  { label: "Contribute", href: "#contribute" },
+  {
+    label: "Contribute",
+    href: "https://github.com/rayterion/open-artificial-texts",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  },
 ];
 
 export default function MainHeader() {
@@ -16,11 +21,16 @@ export default function MainHeader() {
           Open Artificial Texts
         </Link>
 
-        <nav aria-label="Main navigation" className="flex flex-wrap items-center gap-2">
+        <nav
+          aria-label="Main navigation"
+          className="flex flex-wrap items-center gap-2"
+        >
           {navigationLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
+              target={link.target}
+              rel={link.rel}
               className="rounded-md px-3 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-950 dark:text-zinc-300 dark:hover:bg-zinc-900 dark:hover:text-zinc-50"
             >
               {link.label}
